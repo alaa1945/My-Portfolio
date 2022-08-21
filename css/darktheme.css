@@ -1,0 +1,77 @@
+.dark {
+        background-color: hsl(250, 28%, 12%);
+        color: white;
+}
+
+.darktheme_btn {
+        border: none;
+        float: right;
+        background: none;
+        padding-left: 10px;
+        margin: 0;
+}
+
+.darktheme_img:hover {
+        opacity: 0.6;
+        cursor: pointer;
+
+}
+
+.dark .navlist a {
+        color: #ffffff;
+}
+
+.dark .text1 .text.sec-text {
+        color: #ffffff;
+}
+
+.dark .text2 h1 {
+        color: #ffffff;
+}
+
+.dark .text2 p {
+        color: #ffffff;
+}
+
+.dark .aboutme_description h3 {
+        color: #ffffff;
+}
+
+.dark .aboutme_description p {
+        color: rgb(198, 203, 207);
+}
+
+.dark .progressbar-title h3 {
+        color: #ffffff;
+}
+
+.dark .service {
+        border: 2px solid #6E57E0;
+        color: #ffffff;
+        background-color: #4c437c;
+}
+
+.dark .service_title {
+        color: aliceblue;
+}
+
+.dark .reference {
+        color: rgb(198, 203, 207);
+}
+
+.dark .project_parag {
+        color: rgb(198, 203, 207);
+
+}
+
+.dark .footer_container {
+        background-color: hsl(250, 30%, 8%);
+}
+
+.dark .contact_title {
+        color: #a795ff;
+}
+
+.dark .submit_btn {
+        border: none;
+}

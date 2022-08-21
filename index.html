@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- icon -->
+  <link rel="shortcut icon" href="./Myportfolio2.0images/mainlogo1.png" type="image/x-icon" />
+  <!-- Main styling -->
+  <link rel="stylesheet" href="./css/Myportfolio2.0.css" type="text/css" />
+  <!-- Dark Theme styling -->
+  <link rel="stylesheet" href="./css/darktheme.css">
+  <!-- Media queries -->
+  <link rel="stylesheet" href="./css/MediaQueries.css" type="text/css" />
+  <!-- skills animation -->
+  <link rel="stylesheet" href="./css/animation.css">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>AlaaEzzddine</title>
+</head>
+
+<body>
+  <main id="container">
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="logodiv" id="div_logo">
+            <a href="#container" >
+            <img src="./Myportfolio2.0images/mainlogo.png" alt="A.A.E logo" class="logo" width="100%" id="mylogo" />
+            </a>
+          </div>
+          <div>
+            <div class="nav-list">
+              <div class="hamburger" width="100%">
+                <div class="bar" width="100%"></div>
+              </div>
+              <ul class="navlist">
+                <li><a href="#welcome-section" data-after="Home">Home</a></li>
+                <li><a href="#aboutme" data-after="AboutMe">About Me</a></li>
+                <li><a href="#skills" data-after="Skills">Skills</a></li>
+                <li><a href="#projects" data-after="Projects">Projects</a>
+                </li>
+                <li><a href="#footer" data-after="Contact">Contact</a>
+                </li>
+                <li>
+                  <a onclick="myFunction()">
+                    <img src="https://img.icons8.com/pastel-glyph/28/000000/light--v1.png" class="darktheme_img"
+                      width="100%" valign="middle" />
+                  </a>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Welcome section -->
+    <section id="welcome-section">
+      <div class="welcome_section_container">
+        <div class="welcome_section_illastration">
+          <div class="welcome_section_img">
+            <img src="./Myportfolio2.0images/welcome_section_illastration.png" alt="welcome section illustration" />
+            <p style="text-align:center"> <a href="http://www.freepik.com" style="font-size:9px;color:#000000;">designed
+                by upklyak/Freepik</a></p>
+          </div>
+        </div>
+        <div class="wrapper">
+          <div class="welcome_section_description">
+            <div class="intoduction">
+              <div class="text1">
+                <span class="text first-text">Looking for </span>
+                <span class="text sec-text">Frontend Developer?</span>
+              </div>
+              <div class="text2">
+                <h1>I'm <span>Alaa Ezzddine</span></h1>
+                <p>
+                  Frontend & Email Developer passionate about creating
+                  high-quality HTML emails,landing pages, portfolios,and much
+                  more.
+                </p>
+              </div>
+            </div>
+            <div class="btndiv">
+              <button class="btn hire"><a href="#footer">Hire Me</a></button>
+              <button class="btn download">
+                <a href="./Myportfolio2.0images/AlaaEzzddineCV.pdf" download="">Download CV</a><i
+                  class="fa fa-download"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Welcome section -->
+
+    <!-- About Me Section -->
+    <section id="aboutme">
+      <p class="aboutme_title">About Me</p>
+      <div class="aboutme_container">
+        <div class="aboutme_all">
+          <div class="aboutme_img" align="center">
+            <img src="./Myportfolio2.0images/me.jpeg" alt="AlaaEzzdine" width="100%" />
+          </div>
+
+          <div class="aboutme_description">
+            <h3>I'm a Passionate <span>Frontend & Email Developer</span></h2>
+              <p>
+                Alaa Abi Ezzddine.A 19-year-old frontend & email developer.
+                Currently an Information technology student at the Lebanese
+                International University in Beirut with a 3.6 GPA.
+                <br /><br />
+                I'm a self-taught developer who loves challenges.I care alot
+                about writing clean code and genuinely love to learn.
+                <br /><br />
+                Highly motivated, I always achieve my goals set for a project,
+                through a critical spirit of initiative and creativity, I always
+                seek the best results for the company I work for.
+              </p>
+          </div>
+        </div>
+        <div class="btndiv aboutmebtn">
+
+          <button class="btn hire"><a href="#footer">Hire Me</a></button>
+
+          <button class="btn download">
+            <a href="./Myportfolio2.0images/AlaaEzzddineCV.pdf" download="">Download CV</a><i
+              class="fa fa-download"></i>
+          </button>
+
+        </div>
+      </div>
+
+      <div class="experience">
+        <div class="work_experience">
+          <p class="years">2+</p>
+          <p>Years Of Experience</p>
+        </div>
+        <div class="work_experience">
+          <p class="years">5+</p>
+          <p>Happy Clients</p>
+        </div>
+        <div class="work_experience">
+          <p class="years">5+</p>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+
+      <p class="aboutme_title">My skills</p>
+      <div class="skills" id="skills">
+        <div class="languages">
+          <ul class="skills-bar-container">
+            <li>
+              <div class="progressbar-title">
+                <h3>HTML5</h3>
+                <span class="percent" id="html-pourcent"></span>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressred" id="progress-html"></span>
+              </div>
+            </li>
+            <li>
+              <div class="progressbar-title">
+                <h3>CSS3</h3>
+                <span class="percent" id="css-pourcent"></span>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressblue" id="progress-css"></span>
+              </div>
+            </li>
+
+            <li>
+              <div class="progressbar-title">
+                <h3>SQL</h3>
+                <span class="percent" id="sql-pourcent"></span>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressgreen" id="progress-sql"></span>
+              </div>
+            </li>
+
+            <li>
+              <div class="progressbar-title">
+                <h3>Java</h3>
+                <span class="percent" id="java-pourcent"></span>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progresspurple" id="progress-java"></span>
+              </div>
+            </li>
+
+            <li>
+              <div class="progressbar-title">
+                <h3>PHP</h3>
+                <span class="percent" id="php-pourcent"></span>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progressorange" id="progress-php"></span>
+              </div>
+            </li>
+
+            <li>
+              <div class="progressbar-title">
+                <h3>Javascript</h3>
+                <span class="percent" id="javascript-pourcent"></span>
+              </div>
+              <div class="bar-container">
+                <span class="progressbar progresspink" id="progress-javascript"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="./Myportfolio2.0images/skillsillastration.png" alt="" width="500" height="400px" class="skills_img">
+          <p style="font-size:8px;text-align:center;" class="ref">
+            Illustration by <a href="https://icons8.com/illustrations/author/ARh4OKrFtdfC">Pixeltrue</a> from <a
+              href="https://icons8.com/illustrations">Ouch!</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Me Section -->
+
+    <!-- Services Section -->
+    <p class="aboutme_title" style="padding-top: 60px;padding-bottom: 40px;">What Do I Do?</p>
+    <section id="services">
+      <button class="pre-btn"><img src="./Myportfolio2.0images/arrow.png" alt="" /></button>
+      <button class="nxt-btn"><img src="./Myportfolio2.0images/arrow.png" alt="" /></button>
+      <div class="service-container">
+        <div class="service-card">
+          <div class="service">
+            <div class="service_icon">
+              <img src="./Myportfolio2.0images/icons8-web-design-64.png" alt="" width="28" />
+            </div>
+            <p class="service_title">Landing Pages</p>
+            <p class="service_description">
+              Nice,creative and high quality landing page to introduce your
+              website
+            </p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service">
+            <div class="service_icon">
+              <img src="./Myportfolio2.0images/icons8-portfolio-64.png" alt="" width="28">
+            </div>
+            <p class="service_title">Portfolio Websites</p>
+            <p class="service_description">A creative portfolio where you can show all your work projects and skills.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service">
+            <div class="service_icon">
+              <img src="./Myportfolio2.0images/icons8-mail-64.png" alt="" width="28">
+            </div>
+            <p class="service_title">HTML Email Development</p>
+            <p class="service_description">Professional HTML emails. Clean code structure and layout responsiveness.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service">
+            <div class="service_icon">
+              <img src="./Myportfolio2.0images/icons8-testing-58.png" alt="" width="28">
+            </div>
+            <p class="service_title">Email Testing</p>
+            <p class="service_description">Testing your email over 100+ email clients using Email On Acid & real
+              devices.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service">
+            <div class="service_icon">
+              <img src="https://img.icons8.com/pastel-glyph/32/000000/laptop-and-phone.png" alt="" width="32">
+            </div>
+            <p class="service_title">Mobile-Friendly</p>
+            <p class="service_description">Fully responsive designs for mobile and desktop that makes your website
+              accessible to all users.
+            </p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service">
+            <div class="service_icon">
+              <img src="https://img.icons8.com/ios/50/000000/computer-support.png" alt="" width="32">
+            </div>
+            <p class="service_title">Maintenance and Support</p>
+            <p class="service_description">Making updates and ensuring that your site
+              is
+              running at full capacity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Services Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <p class="aboutme_title" style=" padding-bottom: 40px">My projects</p>
+
+      <div id="myBtnContainer">
+        <button class="projects_btn active" id="websites" onclick="filterSelection('websites')">Websites</button>
+        <button class="projects_btn" onclick="filterSelection('emails')">HTML Emails</button>
+      </div>
+
+      <div class="projects_container">
+        <div class="filterDiv websites">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/extratimedesign.PNG" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>Extra time</h1>
+              <p class="project_parag">A sports platrom that provide all sports fans with the latest result and news.
+              </p>
+              <button class="projects_btn"><a href="https://alaa1945.github.io/ExtraTime/" target="_blank">Visit
+                  site</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv websites">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/Bookingapp.jpg" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>Simple booking</h1>
+              <p class="project_parag">Stay in touch with our dog walkers through the chat interface.
+              <p>
+              <p class="reference">Design by <a href="https://www.frontendmentor.io/"
+                  style="text-decoration:underline;">Frontend Mentor</a></p>
+              <button class="projects_btn"><a href="https://alaa1945.github.io/Chat-app-illustration/"
+                  target="_blank">Visit site</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv websites">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/Huddle.jpg" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>Huddle</h1>
+              <p class="project_parag">Huddle re-imagines the way we build communities.</p>
+              <p class="reference">Design by <a href="https://www.frontendmentor.io/"
+                  style="text-decoration:underline;">Frontend Mentor</a></p>
+              <button class="projects_btn"><a href="https://alaa1945.github.io/Huddle-landing-page-/"
+                  target="_blank">Visit site</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv websites">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/tipscalculator.jpg" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>Huddle</h1>
+              <p class="project_parag">Splitter : A small tips calculator app ..</p>
+              <p class="reference">Design by <a href="https://www.frontendmentor.io/solutions/responsive-tip-calculator-ikAJ3wtMYx"
+                  style="text-decoration:underline;">Frontend Mentor</a></p>
+              <button class="projects_btn"><a href="https://alaa1945.github.io/Tips-Calculator/"
+                  target="_blank">Visit site</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv websites">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/timestarter.PNG" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>TimeNow</h1>
+              <p class="project_parag" style="padding-top:10px;">Schedule your posts on Twitter,LinkedIn,and Insta to
+                post when your followers are active.
+              </p>
+              <p class="reference">Design by <a href="https://www.codewell.cc/"
+                  style="text-decoration:underline;padding: 0;">CodeWell</a></p>
+              <button class="projects_btn"><a href="#" target="_blank">Visit site</a></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv emails">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/email1.PNG" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>Shopping</h1>
+              <p class="project_parag">Email template for a shop showing it's new collections and discounts
+              </p>
+              <p class="reference">Design by <a href="https://colorlib.com/"
+                  style="text-decoration:underline;">Colorlb</a></p>
+              <button class="projects_btn"><a href="#" target="_blank">Visit site</a></button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="filterDiv emails">
+          <div class="project">
+            <div class="project_img">
+              <img src="./Myportfolio2.0images/email2.PNG" alt="" />
+            </div>
+            <div class="project_description">
+              <h1>Winter</h1>
+              <p class="project_parag">Newsletter sharing articles about winter.
+              </p>
+              <p class="reference">Design by <a href="https://colorlib.com/"
+                  style="text-decoration:underline;">Colorlb</a></p>
+              <button class="projects_btn"><a href="#" target="_blank">Visit site</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Projects Section -->
+
+    <!-- Section Footer -->
+    <footer id="footer">
+      <div class="footer_container">
+        <div class="contact">
+          <p class="contact_title">
+            Contact Info
+          </p>
+
+          <div class="contact_info">
+            <div class="contact_address">
+              <img src="https://img.icons8.com/ios/32/000000/new-post.png" alt="" height="25px">
+              <p class="contact_address_info">aaework17@gmail.com</p>
+            </div>
+            <div class="contact_address">
+              <img src="https://img.icons8.com/wired/32/000000/phone.png" alt="" height="25px">
+              <p class="contact_address_info">+961 70-299-063</p>
+            </div>
+            <div class="contact_address">
+              <img src="https://img.icons8.com/dotty/32/000000/marker.png" alt="" height="25px">
+              <p class="contact_address_info">Beirut,Lebanon</p>
+            </div>
+          </div>
+          <div class="social_media">
+            <a href="https://www.linkedin.com/in/alaaabiezzddine17/" target="_blank">
+              <img src="https://img.icons8.com/ios-glyphs/28/ffffff/linkedin.png" /></a>
+            <a href="https://github.com/alaa1945" target="_blank">
+              <img src="https://img.icons8.com/ios-glyphs/28/ffffff/github.png" /></a>
+            <a href="https://www.upwork.com/freelancers/~01a73f32d2216d2c08" target="_blank"><img
+                src="https://img.icons8.com/ios-filled/28/ffffff/upwork.png" /></a>
+          </div>
+        </div>
+        <div class="send_email">
+          <p class="contact_title">
+            Let's get in touch
+          </p>
+          <form action="./myportfolio2.0.php" method="post">
+            <div class="formall">
+              <div class="left">
+                <input type="text" name="name" id="name" placeholder="Enter your name" class="input_field">
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail" class="input_field">
+                <input type="text" name="subject" id="subject" placeholder="Subject" class="input_field">
+              </div>
+              <div class="r">
+                <textarea name="text" id="text" rows="5" cols="21" placeholder="Text"></textarea>
+              </div>
+            </div>
+            <input type="submit" value="Submit" class="submit_btn">
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- End of Footer Section -->
+  </main>
+
+  <script src="./Myportfolio2.0.js"></script>
+</body>
+
+</html>
