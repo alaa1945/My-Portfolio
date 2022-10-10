@@ -362,9 +362,6 @@ i {
   height: 100%;
   position: absolute;
   top: 0;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   background: transparent;
   cursor: pointer;
   z-index: 8;
@@ -398,7 +395,6 @@ i {
 .filterDiv {
   width: 100%;
   text-align: center;
-  display: none;
   padding-bottom: 40px;
 }
 
