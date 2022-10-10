@@ -60,6 +60,6 @@ function myFunction() {
   if (element.classList == "dark") {
     logoimg.src = "./Myportfolio2.0images/darkthemelogo.png";
   } else {
-    logoimg.src = "./Myportfolio2.0images/mainlogo.png";
+    logoimg.src = "./Myportfolio2.0images/lightThemeLogo.png";
   }
 }
